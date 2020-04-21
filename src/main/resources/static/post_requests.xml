@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <requests>
 	<request uri = "/user">
-		<classname>com.example.appointment.appointment.UserRegistration</classname>
+		<classname>com.example.meeting.meeting.UserRequests</classname>
 	</request>
 	<request uri = "/business">
 		<classname>com.example.appointment.executable.BusinessRegistration</classname>

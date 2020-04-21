@@ -1,9 +1,7 @@
-package com.example.appointment.appointment.entities;
+package com.example.meeting.meeting.entities;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.appointment.appointment.entities.User;
-
 public interface UserRepository extends CrudRepository<User, Long> {
-
+    User findByEmail(String email);
 }
